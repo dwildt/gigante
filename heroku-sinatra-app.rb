@@ -1,8 +1,8 @@
 require 'rubygems'
 require 'sinatra'
 
-get '/:nome/:sobrenome' do
+get '/:name/:lastname' do
 
-  "#{params[:sobrenome]}".upcase + ", " + "#{params[:nome]}"
+  "#{params[:lastname]}".upcase + ", " + "#{params[:name]}"
 
 end
