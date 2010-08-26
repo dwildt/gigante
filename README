@@ -1,0 +1,9 @@
+This project was just a sample Sinatra app to be deployed in Heroku. I was showing a friend how a project in Ruby could be deployed. 
+
+Well, but doing these simple REST URI apps can be even easier, with CoreRest! :-)
+
+I was playing with CoreRest (http://corerest.appspot.com) and my friend Edgar Silva (@jedgarsilva) asked me to build a simple service. If would be a function with lastname and name, just to return lastname in upper case and name. 
+The service is running in this URL:
+http://corerest.appspot.com/service/gigante/daniel/wildt
+Change daniel/wildt by your name/lastname.
+The script is called by Java Script Engine. When doing this, every variable from Java will be available in the ruby script by using a  "$" before the variable name.
