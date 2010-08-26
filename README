@@ -6,4 +6,5 @@ I was playing with CoreRest (http://corerest.appspot.com) and my friend Edgar Si
 The service is running in this URL:
 http://corerest.appspot.com/service/gigante/daniel/wildt
 Change daniel/wildt by your name/lastname.
-The script is called by Java Script Engine. When doing this, every variable from Java will be available in the ruby script by using a  "$" before the variable name.
+
+The ruby script is called by the Script Engine from Java VM. When doing this, every variable from Java will be available in the ruby script by using a  "$" before the variable name. There's a GIST with a sample Java Code calling a ruby script at http://gist.github.com/550786.
